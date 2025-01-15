@@ -1,19 +1,24 @@
 {
-    "name": "app-service-hello-world",
-    "description": "Simple Hello World Node.js sample for Azure App Service",
-    "version": "0.0.1",
-    "private": true,
-    "license": "MIT",
-    "author": "Microsoft",
-    "scripts": {
-        "start": "node index.js",
-        "dev": "nodemon"
-    },
-    "dependencies": {
-        "ejs": "^3.1.10",
-        "express": "^4.19.2"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.19"
-    }
+  "name": "harness-canary-tweeter",
+  "version": "1.0.0",
+  "description": "This is a demo app to make a canary tweet at you.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "@types/react": "^18.2.13",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.1.3"
+  }
 }
